@@ -1,0 +1,22 @@
+{
+  "name": "package-a",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "chunlin.hu <chunlin.hu@weimob.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/package-a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://npm.weimob.com/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
